@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body style="background-color:;">
+  <nav id="desktop-nav">
+    <div class="logo">Aftab Alam Mansoori</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Aftab Alam Mansoori</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="img\dp1.jpg" alt=" profile picture"  style="border-radius: 13rem;">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Aftab Alam Mansoori</h1>
+      <p class="section__text__p2">Data Analyst</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./img/resume.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./img/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/aftabalammansoorii/'" />
+        <img src="img\github (1).png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/aftabalammansoori'" />
+          <img src="img\instagram.jpg" alt="My Instagram profile" class="icon"
+          onclick="location.href='https://www.instagram.com/aftabmansooriii'" />  
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="img\dp1.jpg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./img/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>Fresher <br />Data Analyst</p>
+          </div>
+          <div class="details-container">
+            <img src="./img/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Tech Computer Science</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <br>
+            Hello, I'am Aftab Alam Mansoori, a passionate Data Analyst as well as
+            Curious Data Science student with 1+ years of experience in data-focused projects. 
+            Passionate about uncovering meaningful insights from data and using it as a transformative tool to solve complex problems. 
+            Skilled in machine learning, statistical analysis, and programming, with a strong ability to tackle large and challenging datasets. 
+            Adept at discovering hidden patterns and crafting creative solutions by building optimized models tailored to unique situations. 
+            Committed to leveraging data as a game-changing protagonist in driving impactful improvements and delivering actionable results.
+          </p>
+          <h5>What I Do :</h5>
+          <h5>Data Collection & Acquisition</h5>
+          <h5>Data Cleaning & Preparation</h5>
+          <h5>Data Visualization & Reporting</h5>
+          <h5>Business Insights & Decision Support</h5>
+          <h5>Statistical and Predictive Analysis</h5>
+          <h5>Working with Databases & Queries</h5>
+        </div>
+      </div>
+    </div>
+    <img src="./img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Technical Stack</h2>
+          <div class="article-container">
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Machine Learning</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Flask</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>SQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Data Visualization & Reporting</h2>
+          <div class="article-container">
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Power BI</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Microsoft Excel</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Tableau</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Matplotlib</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Pandas</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>DAX</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./img/Home.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Multiple Disease Prediction</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aftabalammansoori/Mutiple-Disease-Prediction'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aftabalammansoori/Mutiple-Disease-Prediction'">
+              Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="img\Blinkit.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Blinkit Analysis</h2>
+          <h3 >Excel Interactive Dashboard</h3>
+          <h5>Steps Covered:</h5>
+          <h5>1.Requirement gathering from client</h5>
+          <h5>2.Identify the Stakeholders of the Project</h5>
+          <h5>3.Data cleaning as per the requirement</h5>
+          <h5>4.Data Processing by adding some customized columns in data</h5>
+          <h5>5.Data Analysis by Pivot Tab</h5>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aftabalammansoori/Blinkit-Microsoft-Excel-Analysis'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aftabalammansoori/Blinkit-Microsoft-Excel-Analysis'">
+              Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="img\spotify_logo.jpg" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Spotify SQL Analysis</h2>
+          <h5>This project involves analyzing a Spotify dataset with various attributes such as: tracks, albums,artists and many more using SQL.</h5>
+          <h5>It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced).</h5>
+          <h5>Database: PostgreSQL</h5>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aftabalammansoori/Spotify'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aftabalammansoori/Spotify'">
+              Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./img/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="aftabalammansoorii@gmail.com">aftabalammansoorii@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./img/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/aftabalammansoorii/">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="img\instagram.jpg" alt="Instagram Icon" class="icon contact-icon" />
+        <p><a href="https://www.instagram.com/aftabmansooriii">Instagram</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="img\github (1).png" alt="Github icon" class="icon contact-icon" />
+        <p><a href="https://github.com/aftabalammansoori">GitHub</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2025 Aftab Alam Mansoori. All Rights Reserved.</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
