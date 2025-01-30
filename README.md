@@ -33,6 +33,6 @@ I have built an interactive **portfolio website** using **HTML, CSS, and JavaScr
 ## 📫 Let's Connect!  
 📧 Email: aftabalammansoorii@gmail.com 
 💼 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/aftabalammansoorii/)  
-🌎 Portfolio: [Your Portfolio Website]([your-portfolio-link.com](https://aftabalammansoori.github.io/))  
+🌎 Portfolio: [Your Portfolio Website](https://aftabalammansoori.github.io/) 
 
 Feel free to explore my repositories, contribute, or reach out for collaborations! 🚀  
